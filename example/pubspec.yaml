@@ -1,0 +1,26 @@
+name: full_state_manager_example
+description: Example app for full_state_manager
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  full_state_manager:
+    path: ../
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  dartz: ^0.10.1
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
